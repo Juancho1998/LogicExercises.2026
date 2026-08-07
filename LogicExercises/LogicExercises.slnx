@@ -1,5 +1,9 @@
 <Solution>
   <Folder Name="/01/">
+    <Project Path="Practice exercises/Practice exercises.csproj" Id="2ce76ec8-6724-40a6-a879-e02c15ebf32a" />
     <Project Path="TheNumberIsOddOrNot/TheNumberIsOddOrNot.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Shared.csproj" Id="cfe481be-080c-4be2-8cf6-bd430ee4253d" />
   </Folder>
 </Solution>
