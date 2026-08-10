@@ -44,6 +44,18 @@ public class ConsoleExtension
         return text;
     }
 
+    public static bool GetBool(string message)
+    {
+        var options = new List<string> {"s", "n" };
+        Console.Write(message);
+        var text = Console.ReadLine();
+        if (text!.ToLower() == "s")
+        {
+            return true;
+        }
+        return false;
+    }
+
     public static string? GetValidOptions(string message, List<string> options)
     {
         Console.Write(message);
