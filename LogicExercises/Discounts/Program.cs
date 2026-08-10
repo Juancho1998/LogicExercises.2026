@@ -14,6 +14,8 @@ do
 
 } while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
 
+Console.WriteLine("Game Over.");
+
 decimal CalculateValue(int desks)
 {
     float discount;
@@ -31,5 +33,3 @@ decimal CalculateValue(int desks)
     }
     return desks * 650000M * (decimal)(1 - discount);
 }
-
-Console.WriteLine("Game Over.");
